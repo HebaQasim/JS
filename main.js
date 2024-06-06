@@ -1,4 +1,18 @@
-(document.querySelector(".userProfile h2").textContent="Hello Heba");
-console.log(document.querySelector(".userInfo p"));
-document.querySelector(".userInfo p").classList.add("dark");
-console.log(document.querySelector(".userProfile h2"));
+var hello = document.querySelector("h2");
+var smallbtn=document.querySelector(".small-size");
+var largebtn=document.querySelector(".large-size");
+console.log(hello);
+console.log()
+function small(){
+    hello.classList.remove("larger");
+hello.classList.add("smaller");
+
+}
+function large(){
+    hello.classList.remove("smaller")
+    hello.classList.add("larger");
+    
+}
+smallbtn.onclick = small;
+largebtn.onclick = large;
+

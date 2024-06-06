@@ -1,4 +1,6 @@
-.dark{
-    background-color: black;
-    color: azure;
+.smaller{
+    font-size: 10px;
+}
+.larger{
+    font-size: 20px;
 }
